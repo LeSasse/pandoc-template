@@ -1,0 +1,27 @@
+---
+bibliography: ["all_my_refs.bib"]
+csl: "nature-communications.csl"
+title: "Generic title"
+link citations: true
+figPrefix:
+    - "Fig."
+    - "Figs."
+linkReferences: true
+nameInLink: true
+papersize: a4
+colorlinks: true
+links-as-notes: true
+figureTitle: "**Figure**"
+captionDelim: "."
+
+header-includes: |
+ \usepackage{authblk}
+ \author[1, 2]{Leonard Sasse \thanks{l.sasse@fz-juelich.de}}
+
+ \affil[1]{Institute of Neuroscience and Medicine, Brain and Behaviour (INM-7), Research Centre Jülich, Jülich, Germany}
+ \affil[2]{Institute of Systems Neuroscience, Medical Faculty, Heinrich-Heine-University Düsseldorf, Düsseldorf, Germany}
+
+date: \today
+abstract: |
+    Generic Abstract
+---
