@@ -1,6 +1,6 @@
 ---
 bibliography: ["all_my_refs.bib"]
-csl: "nature-communications.csl"
+csl: "styles/nature-communications.csl"
 title: "Generic title"
 link citations: true
 figPrefix:

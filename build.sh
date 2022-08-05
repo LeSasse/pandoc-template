@@ -21,8 +21,6 @@ pandoc .pandoc-config.yaml --pdf-engine=pdflatex ${filename}.md \
     -o ./compiled/${filename}.docx \
     --filter=pandoc-crossref \
     --filter=pandoc-citeproc \
-    -f +raw_tex \
-    --katex
 
 ###############################################################################
 # HTML                                                                        #
@@ -39,4 +37,5 @@ pandoc .pandoc-config.yaml --pdf-engine=pdflatex ${filename}.md \
 # TEX                                                                         #
 ###############################################################################
  pandoc .pandoc-config.yaml --pdf-engine=pdflatex \
-    ${filename}.md -o ${filename}.tex --filter=pandoc-citeproc
+    ${filename}.md -o ./compiled/${filename}.tex --filter=pandoc-citeproc
+
