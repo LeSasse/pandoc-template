@@ -7,5 +7,5 @@
 
 # Discussion
 
-/pagebreak
+\pagebreak
 # References
