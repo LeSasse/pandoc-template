@@ -13,8 +13,12 @@ colorlinks: true
 links-as-notes: true
 figureTitle: "**Figure**"
 captionDelim: "."
+indent: true
 
 header-includes: |
+ \usepackage{setspace}
+ \doublespacing
+ \usepackage{hanging}
  \usepackage{authblk}
  \author[1, 2]{Leonard Sasse \thanks{l.sasse@fz-juelich.de}}
 
