@@ -1,7 +1,7 @@
 ---
 bibliography: ["all_my_refs.bib"]
 csl: "styles/nature-communications.csl"
-title: "Generic title"
+title: "Lorem Ipsum"
 link citations: true
 figPrefix:
     - "Fig."
@@ -19,6 +19,9 @@ header-includes: |
  \usepackage{setspace}
  \doublespacing
  \usepackage{hanging}
+ \usepackage{caption}
+ \captionsetup{labelsep=period}
+
  \usepackage{authblk}
  \author[1, 2]{Leonard Sasse \thanks{l.sasse@fz-juelich.de}}
 
@@ -27,5 +30,11 @@ header-includes: |
 
 date: \today
 abstract: |
-    Generic Abstract
+    Consequat ex consectetur qui officia enim Lorem labore dolor proident 
+    incididunt ullamco aute. Est consectetur sit non laborum adipisicing est. 
+    Commodo minim dolor deserunt voluptate.Mollit non sunt nisi incididunt tempor
+    est esse aute. Ullamco velit tempor est culpa commodo deserunt esse anim 
+    officia reprehenderit occaecat sit amet mollit. Eiusmod amet voluptate esse
+    sunt consequat anim eiusmod fugiat ea magna commodo consectetur sunt.
+    Non nisi nulla sint ut exercitation nulla ad.
 ---
