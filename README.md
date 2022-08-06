@@ -16,7 +16,7 @@ Once you are ready to check out how the output will look run:
 This will output a ".tex", ".html", ".docx", and ".pdf" file in the compiled
 folder. I usually use a text editor on one half, okular pdf viewer on the other
 half, which will refresh a file each time "build.sh" is run, even if the file is
-open, so I get a feedback rather quickly.
+open, so I get a feedback rather quickly. See an example of the output [here](https://github.com/LeSasse/pandoc-template/blob/master/compiled/draft.pdf).
 
 ## Styles
 More styles can be obtained at [the Zotero repository](https://www.zotero.org/styles)
